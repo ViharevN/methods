@@ -8,8 +8,9 @@ public class Main {
 
         int phoneOS = phoneClient(1, 2015);
 
+        //задание 3
 
-
+        int deliveryDays = deliveryDistance(190);
 
 
     }
@@ -38,6 +39,13 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
         }
         return clientOS;
+    }
+
+    public static int deliveryDistance(int deliveryDistance) {
+        int deliveryDays = (deliveryDistance/40)+1;
+        System.out.println("потребуется дней: " + deliveryDays);
+
+        return deliveryDays;
     }
 
 }
