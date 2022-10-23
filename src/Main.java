@@ -6,7 +6,7 @@ public class Main {
 
         //задание 2
 
-        int phoneOS = phoneYear(1, 2015);
+        int phoneOS = phoneClient(1, 2015);
 
 
 
@@ -24,7 +24,7 @@ public class Main {
         return currentYear;
     }
 
-    public static int phoneYear(int clientOS, int phoneYear) {
+    public static int phoneClient(int clientOS, int phoneYear) {
         if (clientOS == 0 && phoneYear >= 2015) {
             System.out.println("Установите версию приложения для iOS по ссылке");
 
